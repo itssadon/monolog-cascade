@@ -14,13 +14,14 @@ use Monolog\Logger;
 use Monolog\Registry;
 
 use Cascade\Cascade;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class CascadeTest
  *
  * @author Raphael Antonmattei <rantonmattei@theorchard.com>
  */
-class CascadeTest extends \PHPUnit_Framework_TestCase
+class CascadeTest extends TestCase
 {
     public function teardown()
     {

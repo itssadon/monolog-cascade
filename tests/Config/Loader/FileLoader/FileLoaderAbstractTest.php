@@ -13,13 +13,14 @@ namespace Cascade\Tests\Config\Loader\FileLoader;
 use org\bovigo\vfs\vfsStream;
 
 use Cascade\Tests\Fixtures;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class FileLoaderAbstractTest
  *
  * @author Raphael Antonmattei <rantonmattei@theorchard.com>
  */
-class FileLoaderAbstractTest extends \PHPUnit_Framework_TestCase
+class FileLoaderAbstractTest extends TestCase
 {
     /**
      * Mock of extending Cascade\Config\Loader\FileLoader\FileLoaderAbstract

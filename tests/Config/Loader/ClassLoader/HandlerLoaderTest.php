@@ -15,13 +15,14 @@ use Monolog\Formatter\LineFormatter;
 use Cascade\Config\Loader\ClassLoader\HandlerLoader;
 use Monolog\Processor\MemoryUsageProcessor;
 use Monolog\Processor\WebProcessor;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class HandlerLoaderTest
  *
  * @author Raphael Antonmattei <rantonmattei@theorchard.com>
  */
-class HandlerLoaderTest extends \PHPUnit_Framework_TestCase
+class HandlerLoaderTest extends TestCase
 {
     public function testHandlerLoader()
     {
