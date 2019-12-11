@@ -31,7 +31,7 @@ class YamlTest extends \PHPUnit_Framework_TestCase
     {
         parent::setUp();
 
-        $fileLocatorMock = $this->getMock(
+        $fileLocatorMock = $this->createMock(
             'Symfony\Component\Config\FileLocatorInterface'
         );
 
