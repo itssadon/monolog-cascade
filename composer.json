@@ -1,5 +1,5 @@
 {
-    "name": "mariodevment/monolog-cascade",
+    "name": "itssadon/monolog-cascade",
     "license": "MIT",
     "type": "library",
     "description": "Monolog extension to configure multiple loggers in the blink of an eye and access them from anywhere",
@@ -14,10 +14,10 @@
     "homepage": "https://github.com/theorchard/monolog-cascade",
     "require": {
         "php": "^7.0",
-        "symfony/config": "^2.7 || ^3.0 || ^4.0",
-        "symfony/options-resolver": "^2.7 || ^3.0 || ^4.0",
-        "symfony/serializer": "^2.7 || ^3.0 || ^4.0",
-        "symfony/yaml": "^2.7 || ^3.0 || ^4.0",
+        "symfony/config": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+        "symfony/options-resolver": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+        "symfony/serializer": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+        "symfony/yaml": "^2.7 || ^3.0 || ^4.0 || ^5.0",
         "monolog/monolog": "^1.13 || ^2.0"
     },
     "autoload": {
